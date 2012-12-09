@@ -1,3 +1,6 @@
+# Toy Code
+This project is a toy project of mine for exploring Clojure, and for playing with some concepts from classical logic.  The code for compiling a sentence is very crude, and should not be looked at as a proper way for parsing / processing strings.  A better way would be to create a lexer and use the lexer to parse input strings into tokens.  But such an implementation will have to wait.
+
 # Sentential Logic
 The sentential logic (aka propositional logic) is the simplest, and often first area broached when exploring Mathematical Logic.  Propositional logic consists of simple statements, or _premises_.  There are no quantified variables in propositional logic, and there are no user-defined predicates.  There are simply premises and the familiar sentential connectives:
 + OR, AND, If/Then (->), NOT, If and only If (<->)
